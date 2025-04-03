@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -15,7 +15,10 @@ let package = Package(
         .target(
             name: "SwiftSVG",
             dependencies: [],
-            path: "SwiftSVG"
+            path: "SwiftSVG",
+            resources: [
+                .process("SVG/Helpers/cssColorNames.json")
+            ]
         ),
         .testTarget(
             name: "SwiftSVGTests",
