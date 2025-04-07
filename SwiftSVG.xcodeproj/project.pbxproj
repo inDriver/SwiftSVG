@@ -131,6 +131,8 @@
 		66F9844B20EF511F00A2CBEF /* Unown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F9844A20EF511F00A2CBEF /* Unown.swift */; };
 		66F9844C20EF532600A2CBEF /* Unown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F9844A20EF511F00A2CBEF /* Unown.swift */; };
 		8AC4DBEA1CB37EA700137DC9 /* CrossPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4DBE91CB37EA700137DC9 /* CrossPlatform.swift */; };
+		9A7982982DA452840093A2B7 /* SVGShapeElementLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7982972DA452840093A2B7 /* SVGShapeElementLayer.swift */; };
+		9A7982992DA452840093A2B7 /* SVGShapeElementLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7982972DA452840093A2B7 /* SVGShapeElementLayer.swift */; };
 		A738B2921FD252A9001CF969 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A738B2911FD252A9001CF969 /* Identifiable.swift */; };
 		D9870F27216628A900B47813 /* CGPathPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381E99B31EF8C72900839918 /* CGPathPoints.swift */; };
 		E8235A5F22F260E000E8F1B3 /* cssColorNames.json in Resources */ = {isa = PBXBuildFile; fileRef = E8235A5E22F260E000E8F1B3 /* cssColorNames.json */; };
@@ -230,6 +232,7 @@
 		39B8D8901B3C3283009DAF60 /* SwiftSVGFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftSVGFramework.h; sourceTree = "<group>"; };
 		66F9844A20EF511F00A2CBEF /* Unown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unown.swift; sourceTree = "<group>"; };
 		8AC4DBE91CB37EA700137DC9 /* CrossPlatform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrossPlatform.swift; sourceTree = "<group>"; };
+		9A7982972DA452840093A2B7 /* SVGShapeElementLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGShapeElementLayer.swift; sourceTree = "<group>"; };
 		9E245B691AAE383200472F5A /* String+Subscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Subscript.swift"; sourceTree = "<group>"; };
 		9E245B6A1AAE383200472F5A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		9E245BDA1AAE3FE000472F5A /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -384,6 +387,7 @@
 				38048F351F24210F00179C95 /* SVGView.swift */,
 				38048F361F24210F00179C95 /* UIBezierPath+SVG.swift */,
 				38048F371F24210F00179C95 /* UIView+SVG.swift */,
+				9A7982972DA452840093A2B7 /* SVGShapeElementLayer.swift */,
 			);
 			name = "SVG Extensions";
 			path = "SwiftSVG/SVG Extensions";
@@ -706,6 +710,7 @@
 				381E99B61EF8CCCC00839918 /* PathDLexerTests.swift in Sources */,
 				38048F201F23DD3F00179C95 /* SVGGroupTests.swift in Sources */,
 				381E99B81EF8D26E00839918 /* CurveToTests.swift in Sources */,
+				9A7982992DA452840093A2B7 /* SVGShapeElementLayer.swift in Sources */,
 				176BC9DA1EE5193D00F7B54C /* UIColorExtensionsTests.swift in Sources */,
 				38048F3F1F24214400179C95 /* CAShapeLayer+SVG.swift in Sources */,
 				381E99AD1EF8946E00839918 /* ScalarFromByteArrayTests.swift in Sources */,
@@ -748,6 +753,7 @@
 				8AC4DBEA1CB37EA700137DC9 /* CrossPlatform.swift in Sources */,
 				38511AB31F57B0BC007B7BB8 /* SVGParser.swift in Sources */,
 				3807CCEA1F2866D900E78314 /* DelaysApplyingAttributes.swift in Sources */,
+				9A7982982DA452840093A2B7 /* SVGShapeElementLayer.swift in Sources */,
 				38048F471F24520200179C95 /* CALayer+Sublayers.swift in Sources */,
 				176BC9D01EE513F400F7B54C /* SVGPolyline.swift in Sources */,
 				175093C11E6C669F00EF1853 /* SVGParserSupportedElements.swift in Sources */,

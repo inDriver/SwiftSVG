@@ -74,7 +74,7 @@ final class SVGGroup: SVGContainerElement {
         }
         
         for thisSublayer in containerSublayers {
-            guard let thisShapeSublayer = thisSublayer as? CAShapeLayer else {
+            guard let thisShapeSublayer = thisSublayer as? SVGShapeElementLayer else {
                 continue
             }
             for (attribute, value) in self.delayedAttributes {
@@ -101,7 +101,10 @@ fileprivate extension SVGGroup {
      Function that applies the fill color on all of this group's subelements
      */
     func fillGroup(_ fillColor: String, on layer: CAShapeLayer) {
-        guard let fillColor = UIColor(svgString: fillColor) else {
+        guard
+            let fillColor = UIColor(svgString: fillColor),
+            (layer as? SVGShapeElementLayer)?.appliedProperties.contains(.fillColor) != true
+        else {
             return
         }
         layer.fillColor = fillColor.cgColor

@@ -58,7 +58,7 @@ final class SVGEllipse: SVGShapeElement {
     internal var yRadius: CGFloat = 0
     
     /// :nodoc:
-    internal var svgLayer = CAShapeLayer()
+    internal var svgLayer = SVGShapeElementLayer()
     
     /// :nodoc:
     internal var supportedAttributes: [String : (String) -> ()] = [:]

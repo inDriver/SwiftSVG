@@ -73,6 +73,7 @@ extension Fillable where Self : SVGShapeElement {
             return
         }
         self.svgLayer.fillColor = fillColor.withAlphaComponent(colorComponents[3]).cgColor
+        self.svgLayer.appliedProperties.insert(.fillColor)
     }
     
     /**

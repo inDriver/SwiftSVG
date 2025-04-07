@@ -47,7 +47,7 @@ struct SVGPolyline: SVGShapeElement {
     internal var supportedAttributes: [String : (String) -> ()] = [:]
     
     /// :nodoc:
-    internal var svgLayer = CAShapeLayer()
+    internal var svgLayer = SVGShapeElementLayer()
     
     /**
      Parses a coordinate string and creates a new polyline based on them

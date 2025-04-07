@@ -55,7 +55,7 @@ final class SVGLine: SVGShapeElement {
     internal var start = CGPoint.zero
     
     /// :nodoc:
-    internal var svgLayer = CAShapeLayer()
+    internal var svgLayer = SVGShapeElementLayer()
     
     /// :nodoc:
     internal var supportedAttributes: [String : (String) -> ()] = [:]
