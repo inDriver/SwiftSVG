@@ -71,6 +71,9 @@
 		8AC4DBD81CB37DC600137DC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC4DBD71CB37DC600137DC9 /* ViewController.swift */; };
 		8AC4DBDA1CB37DC600137DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4DBD91CB37DC600137DC9 /* Assets.xcassets */; };
 		8AC4DBDD1CB37DC600137DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AC4DBDB1CB37DC600137DC9 /* Main.storyboard */; };
+		9A79829B2DA4F0680093A2B7 /* itau.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9A79829A2DA4F0680093A2B7 /* itau.svg */; };
+		9A79829D2DA4F0700093A2B7 /* nubank_icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9A79829C2DA4F0700093A2B7 /* nubank_icon.svg */; };
+		9A79829F2DA4F0760093A2B7 /* bancodobrasil.svg in Resources */ = {isa = PBXBuildFile; fileRef = 9A79829E2DA4F0760093A2B7 /* bancodobrasil.svg */; };
 		E8235A6522F26C6800E8F1B3 /* alohaShirt.svg in Resources */ = {isa = PBXBuildFile; fileRef = E8235A6422F26C6800E8F1B3 /* alohaShirt.svg */; };
 /* End PBXBuildFile section */
 
@@ -182,6 +185,9 @@
 		8AC4DBD91CB37DC600137DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AC4DBDC1CB37DC600137DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AC4DBDE1CB37DC600137DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A79829A2DA4F0680093A2B7 /* itau.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = itau.svg; sourceTree = "<group>"; };
+		9A79829C2DA4F0700093A2B7 /* nubank_icon.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = nubank_icon.svg; sourceTree = "<group>"; };
+		9A79829E2DA4F0760093A2B7 /* bancodobrasil.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = bancodobrasil.svg; sourceTree = "<group>"; };
 		E8235A6422F26C6800E8F1B3 /* alohaShirt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = alohaShirt.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -300,6 +306,9 @@
 				3807CCFA1F2AEF3A00E78314 /* tea.svg */,
 				380FED661F06951100EDB255 /* tiger.svg */,
 				38A1CE0F1EF77A0F00D2E54E /* triangle.svg */,
+				9A79829A2DA4F0680093A2B7 /* itau.svg */,
+				9A79829C2DA4F0700093A2B7 /* nubank_icon.svg */,
+				9A79829E2DA4F0760093A2B7 /* bancodobrasil.svg */,
 			);
 			path = TestSVGs;
 			sourceTree = "<group>";
@@ -485,10 +494,13 @@
 				380FED041F00171B00EDB255 /* openclipart-1290111299.svg in Resources */,
 				380FED6B1F06984900EDB255 /* decorativeblob.svg in Resources */,
 				38A1CE101EF77A0F00D2E54E /* triangle.svg in Resources */,
+				9A79829F2DA4F0760093A2B7 /* bancodobrasil.svg in Resources */,
+				9A79829B2DA4F0680093A2B7 /* itau.svg in Resources */,
 				380FED091F00171B00EDB255 /* openclipart-Anonymous_Architetto_--_Bicicletta.svg in Resources */,
 				38A634CC204F89E10023166E /* raphaelcruzeiro.svg in Resources */,
 				176BC9B01EE48D3C00F7B54C /* circles.svg in Resources */,
 				176BC9FF1EE63FAB00F7B54C /* polylines.svg in Resources */,
+				9A79829D2DA4F0700093A2B7 /* nubank_icon.svg in Resources */,
 				3876E95F1EFCB2E000F8C04E /* pizza.svg in Resources */,
 				380FED0A1F00171B00EDB255 /* openclipart-Anonymous_Architetto_--_Camello.svg in Resources */,
 				380FED061F00171B00EDB255 /* openclipart-1332611679.svg in Resources */,
@@ -689,7 +701,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -740,7 +752,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

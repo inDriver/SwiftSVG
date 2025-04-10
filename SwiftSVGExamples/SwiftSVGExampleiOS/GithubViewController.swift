@@ -40,6 +40,15 @@ class GithubViewController: UIViewController {
     lazy var collectionViewData: [CellItem] = {
         let returnData = [
             CellItem(render: { (cellSize) -> UIView in
+                UIView(svgNamed: "itau")
+            }),
+            CellItem(render: { (cellSize) -> UIView in
+                UIView(svgNamed: "nubank_icon")
+            }),
+            CellItem(render: { (cellSize) -> UIView in
+                UIView(svgNamed: "bancodobrasil")
+            }),
+            CellItem(render: { (cellSize) -> UIView in
                 
                 // Simplest example of an SVG stored in the main bundle
                 

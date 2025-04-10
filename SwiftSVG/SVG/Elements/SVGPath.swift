@@ -90,7 +90,9 @@ final class SVGPath: SVGShapeElement, ParsesAsynchronously, DelaysApplyingAttrib
             let parsePathClosure = {
                 var previousCommand: PreviousCommand? = nil
                 for thisPathCommand in PathDLexer(pathString: workingString) {
-                    thisPathCommand.execute(on: pathDPath, previousCommand: previousCommand)
+                    if thisPathCommand.numberOfRequiredParameters == thisPathCommand.coordinateBuffer.count {
+                        thisPathCommand.execute(on: pathDPath, previousCommand: previousCommand)
+                    }
                     previousCommand = thisPathCommand
                 }
             }

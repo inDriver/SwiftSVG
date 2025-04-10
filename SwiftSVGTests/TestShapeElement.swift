@@ -30,7 +30,7 @@ import UIKit
 struct TestShapeElement: SVGShapeElement {
     static let elementName: String = "test"
     var supportedAttributes: [String : (String) -> ()] = [:]
-    var svgLayer = CAShapeLayer()
+    var svgLayer = SVGShapeElementLayer()
     
     init() {
         let rectPath = UIBezierPath(rect: CGRect(x: 0, y: 0, width: 200, height: 200))

@@ -48,6 +48,7 @@ internal struct PathDConstants {
         case a = 97
         case C = 67
         case c = 99
+        case e = 101
         case H = 72
         case h = 104
         case L = 76
@@ -175,7 +176,7 @@ internal struct PathDLexer: IteratorProtocol, Sequence {
                     return self.currentCommand
                 }
                 
-            case PathDConstants.DCharacter.sign.rawValue,
+            case PathDConstants.DCharacter.sign.rawValue where self.numberArray.last != PathDConstants.DCharacter.e.rawValue,
                 PathDConstants.DCharacter.point.rawValue where self.numberArray.contains(PathDConstants.DCharacter.point.rawValue):
                 self.pushCoordinateIfPossible(self.numberArray)
                 if self.currentCommand != nil && self.currentCommand!.canPushCommand {
